@@ -1,0 +1,392 @@
+.contenedor{
+    background: #333;
+    color: #fff;
+    padding: 2em 0;
+    text-align: center;
+}
+.col{
+    background: #22BCE0;
+    border:1px solid black;
+    padding: 1em 0;
+}
+
+
+.blog{
+    position: relative;
+    top: 84px;
+}
+
+
+/* ---------------- Estilos para pagina POST SAMPLE----------------------------------- */
+
+.wrapper, .row {
+   height: 100%;
+   margin-left:0;
+   margin-right:0;
+}
+
+.wrapper .box .row .full{
+    width: 90%;
+    margin: 0 2em;
+}
+
+.wrapper:after,
+.column:after {
+    clear: both;
+}
+
+
+/* ---------------- Estilos para pagina Proyecto----------------------------------- */
+.-header {
+    padding: 12em 0;
+    background-attachment: scroll;
+    background-image: url(../img/portafolio/Portada2.png);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.-header .container .row  {
+    padding: 2em 0
+}
+
+.texto-sombra {
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+.info-content{
+    padding-top: 2em;
+}
+
+.info-content .info-contenido .row{
+    text-align: center;
+}
+
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/portafolio/red.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+/* ---------------- Estilos para pagina Portafolio----------------------------------- */
+
+.header{
+    padding-top: 5em;
+}
+section .item-single{
+    padding: 1em 0;
+}
+
+.items-single article div a img{
+    height: 300px;
+    width: 100%;
+}
+
+/* ---------------- Estilos para pagina Index----------------------------------- */
+
+h2{
+    font-size: 2em;
+}
+header {
+    text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url(../img/header.png);
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    
+}
+header blockquote {
+    background: transparent;
+}
+
+header blockquote footer {
+    background: transparent;
+    color: #FFF;
+    text-align: right;
+}
+
+header .titulos {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+header .titulos .titulo-principal h1{
+    margin-bottom: 1em;
+    font-size: 1.2em;
+    font-style: italic;
+    
+}
+
+header .titulos .titulo-secundario {
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+
+footer {
+    background: #eee;
+    padding: 2em 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    line-height: 2em;
+}
+
+footer ul.copyrightlinks {
+    margin-bottom: 0;
+    line-height: 2em;
+}
+
+#servicios {
+    padding: 8em 0;
+    text-align: center;
+}
+/* Si quieres que ocupe el 100% la imagen tienes que eliminar el 
+  display inline-block */
+#servicios .img-responsive{
+    display: inline-block;
+}
+
+#servicios .titulo-cabecera-primario {
+    font-size: 2.6em;
+}
+#servicios .titulo-cabecera-secundario {
+    font-size: 1.6em;
+    margin: 1em 0 ;
+    font-style: italic;
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .titulo-cabecera-primario {
+    font-size: 2.6em;
+}
+#portfolio .titulo-cabecera-secundario {
+    font-size: 1.6em;
+    margin: 1em 0 ;
+    font-style: italic;
+}
+
+#portfolio .portfolio-item .portfolio-info {
+    margin: 0 auto;
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-info h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-info p {
+    margin: 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+
+
+#contacto {
+    background-color: #222;
+    color: #FFF;
+}
+
+#contacto .titulo-cabecera-primario {
+    color: #fff;
+}
+
+#contacto .form-group {
+    margin-bottom: 1.3em;
+}
+
+#contacto .form-group input,
+#contacto .form-group textarea {
+    padding: 1.1em;
+}
+
+
+
+#contacto .form-group input.form-control {
+    height: 100%;
+}
+
+#contacto .form-group textarea.form-control {
+    height: 10em;
+}
+
+#contacto .form-control:focus {
+    border-color: #22BCE0;
+}
+
+
+#contacto .text-danger {
+    color: #e74c3c;
+}
+
+
+.download {
+    color: #fff;
+    background-color: #333;
+    padding: 4em 0;
+}
+.download .dowload-info h2 {
+    margin: 0 auto 1.6em;
+}
+
+
+.boton {
+    padding: 1em 2em;
+    border-color: #22BCE0;
+    border-radius: 0.1em;
+    font-size: 1.4em;
+    color: #fff;
+    background-color: #22BCE0;
+}
+
+.boton:hover {
+    border-color: #FF7F00;
+    color: #fff;
+    background-color: #FF7F00;
+}
+
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    color: #22BCE0;
+}
+
+.navbar-default .navbar-brand:hover{
+    color: #FF7F00;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover{
+    background-color: #22BCE0;
+}
+
+.navbar-default .nav li a {
+    font-size: 1.7em;
+    color: #fff;
+}
+
+.navbar-default .nav li a:hover{
+    color: #22BCE0;
+}
+@media(max-width:768px) {
+
+    header .titulos .titulo-principal {
+        font-size: 1.5em;
+    }
+    header .titulos .titulo-secundario {
+        font-size: 0.7em;
+    }
+    header .titulos .boton {
+        font-size: 1em;
+    } 
+    #servicios {
+        padding: 2em 0;
+    }   
+}
+
+@media(min-width:767px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+@media(min-width:768px) {
+
+    header .titulos {
+        padding-top: 200px;
+        padding-bottom: 130px;
+    }
+
+    header .titulos .titulo-principal {
+        margin-bottom: 25px;
+        font-style: italic;
+        font-size: 2em;
+    }
+
+    header .titulos .titulo-secundario {
+        margin-bottom: 50px;
+    }
+
+    .navbar-default {
+        background: rgba(0,0,0,0.7);
+        padding: 1.2em 0;
+        border: 0;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+    }
+
+    .navbar-default .navbar-shrink {
+        padding: 0.8em 0;
+        background-color: #222;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+    #servicios {
+        padding: 8em 0;
+    }
+}
